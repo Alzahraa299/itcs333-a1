@@ -9,19 +9,57 @@
 /*section1*/
 
 /*section2*/
-/*Welcome Section Styling:
-Style the welcome message section.
-Weekly Schedule Section Styling:
-
-Style the schedule, including list items and fonts.
-Photo Gallery Section:
-
-Style the photo gallery, ensuring images are properly aligned, with hover effects if desired.
-Parent Resources and Announcements Styling:
-
-Style the resources and announcements section (headings, lists, links, etc.).*/
 /*welcome*/
-#H1 h1{
-    color:powderblue;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: #eeefc4;
 }
+section {
+    padding: 20px;
+    margin: 35px auto;
+    max-width: 100%;
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    color:blue;
+}
+#H1 h1, #H1 h4{
+    color:blue;
+    font-family: cursive;
+}  
+.kg1a{
+    background-color: #c4efda;
+}
+.kg1b{
+    background-color: #a3edc9;
+}
+.kg2b{
+    background-color: #e4c4ef;
+}
+.kg2a{
+    background-color: #dea7f0;
+}
+.kgm{
+    background-color: white;
+}
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th{
+    background-color: #c4efda;
+}
+td{
+    background-color: #ffffff;   
+}
+h4{
+    color:#ff69b4;
+}
+.ph{
+    width: 150px;
+    height: 150px;
+}
+/*display: flex;
+justify-content: space-around;*/
