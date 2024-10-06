@@ -1,0 +1,27 @@
+/* 
+• Create a colorful, child-friendly design that’s also readable for adults
+• Ensure the layout is responsive for both mobile and desktop views
+• Use Flexbox or CSS Grid for layout
+• Implement a color scheme suitable for a kindergarten environment
+• Colorful hover effects on navigation items 
+*/
+
+/*section1*/
+
+/*section2*/
+/*Welcome Section Styling:
+Style the welcome message section.
+Weekly Schedule Section Styling:
+
+Style the schedule, including list items and fonts.
+Photo Gallery Section:
+
+Style the photo gallery, ensuring images are properly aligned, with hover effects if desired.
+Parent Resources and Announcements Styling:
+
+Style the resources and announcements section (headings, lists, links, etc.).*/
+/*welcome*/
+#H1 h1{
+    color:powderblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
