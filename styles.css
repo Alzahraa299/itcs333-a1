@@ -7,15 +7,16 @@
 */
 
 /*section1*/
-h1{
-    color:#dea7f0;
+.h1{
+    text-align:center;
+    color:plum;
 }
 
     
 nav{
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(138, 194, 149);
+    background-color: #e4c4ef;
 }
 nav > div {
 
@@ -25,6 +26,9 @@ nav > div {
     line-height:50px;
     font-size: 30px;
 }
+a:hover{
+    color:whitesmoke;
+    background-color: plum;}
 footer{
   display: flex;
   flex-direction: column;
