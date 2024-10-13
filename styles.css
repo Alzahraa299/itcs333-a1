@@ -39,16 +39,20 @@ a:hover{
 footer{
   display: flex;
   flex-direction: column;
-  background-color: Blue;
+  background-color: #e4c4ef;
 }
 
 footer > div {
   background-color: beige;
   width: 200px;
   margin: 5px;
-  text-align: center;
+  text-align: start;
   line-height: 20px;
-  font-size: 10px;
+  font-size: 20px;
+}
+b:hover{
+    color:whitesmoke;
+    background-color:plum;
 }
 
 /*section2*/
