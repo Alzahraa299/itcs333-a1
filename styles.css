@@ -10,6 +10,7 @@
 .h1{
     text-align:center;
     color:plum;
+    font-size: 50px;
 }
 
     
@@ -22,13 +23,19 @@ nav > div {
 
     width: 1150px;
     margin: 50px;
-    text-align: center;
+    text-align: justify;
     line-height:50px;
     font-size: 30px;
+    
+}
+.navi{
+    border:  7px solid whitesmoke;
 }
 a:hover{
     color:whitesmoke;
-    background-color: plum;}
+    background-color: plum;
+}
+
 footer{
   display: flex;
   flex-direction: column;
@@ -62,6 +69,7 @@ h2{
 #H1 h1, #H1 h4{
     color:blue;
     font-family: cursive;
+    text-align: center;
 }  
 /*table*/
 .kg1a{    background-color: #c4efda;}
