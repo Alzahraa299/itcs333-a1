@@ -9,7 +9,7 @@
 /*section1*/
 .h1{
     text-align:center;
-    color:plum;
+    color:powderblue;
     font-size: 50px;
 }
 
@@ -17,7 +17,7 @@
 nav{
     display: flex;
     flex-wrap: nowrap;
-    background-color: plum;
+    background-color: powderblue;
 }
 nav > div {
 
@@ -33,13 +33,13 @@ nav > div {
 }
 a:hover{
     color:whitesmoke;
-    background-color: plum;
+    background-color: powderblue;
 }
 
 footer{
   display: flex;
   flex-direction: column;
-  background-color: plum;
+  background-color: powderblue;
 }
 
 footer > div {
@@ -52,13 +52,14 @@ footer > div {
 }
 b:hover{
     color:whitesmoke;
-    background-color:plum;
+    background-color:powderblue;
 }
 
 /*section2*/
 /*welcome*/
 body{
-    background-color: #eeefc4;
+    background-color: rgb(248, 248, 231);
+    text-align: center;
 }
 section {
     padding: 20px;
@@ -76,11 +77,13 @@ h2{
     text-align: center;
 }  
 /*table*/
+.tHead{   font-size: 40px;}
+.tHead2{  font-size: 27px; font-family: sans-serif; color:rgb(88, 88, 248)}
 .kg1a{    background-color: #c4efda;}
 .kg1b{    background-color: #a3edc9;}
 .kg2b{    background-color: #e4c4ef;}
 .kg2a{    background-color: #dea7f0;}
-.kgm{    background-color: white;}
+.kgm{     background-color: white;}
 table, th, td {
     border: 3px solid white;
     border-collapse: collapse;
