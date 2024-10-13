@@ -8,31 +8,22 @@
 
 /*section1*/
 h1{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: powderblue;
-}
-h1 > div {
-    background-color: beige;
-    width: 120px;
-    margin: 15px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
+    color:#dea7f0;
 }
 
+    
 nav{
     display: flex;
-    flex-wrap: wrap;
-    background-color: blue;
+    flex-wrap: nowrap;
+    background-color: rgb(138, 194, 149);
 }
 nav > div {
-    background-color: beige;
-    width: 200px;
-    margin: 5px;
+
+    width: 1150px;
+    margin: 50px;
     text-align: center;
-    line-height:20px;
-    font-size: 10px;
+    line-height:50px;
+    font-size: 30px;
 }
 footer{
   display: flex;
