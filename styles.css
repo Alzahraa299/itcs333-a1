@@ -6,35 +6,44 @@
 • Colorful hover effects on navigation items 
 */
 
-/*section1*/
+/*header*/
 .h1{
     text-align:center;
     color:powderblue;
     font-size: 50px;
 }
 
-    
+
+
+/*navigation*/  
+
 nav{
     display: flex;
     flex-wrap: nowrap;
     background-color: powderblue;
 }
-nav > div {
 
+nav > div {
     width: 1150px;
     margin: 50px;
     text-align: justify;
     line-height:50px;
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
+
 .navi{
     border:  7px solid whitesmoke;
+}
+a, .bo{
+    color:blue;
 }
 a:hover{
     color:whitesmoke;
     background-color: powderblue;
 }
+
+
+/*footer*/
 
 footer{
   display: flex;
@@ -50,9 +59,10 @@ footer > div {
   line-height: 20px;
   font-size: 20px;
 }
-b:hover{
-    color:whitesmoke;
-    background-color:powderblue;
+.bo:hover{
+    color: blue;
+    border: 2px solid powderblue;
+    font-size: larger;
 }
 
 /*section2*/
