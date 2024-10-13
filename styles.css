@@ -17,7 +17,7 @@
 nav{
     display: flex;
     flex-wrap: nowrap;
-    background-color: #e4c4ef;
+    background-color: plum;
 }
 nav > div {
 
@@ -39,7 +39,7 @@ a:hover{
 footer{
   display: flex;
   flex-direction: column;
-  background-color: #e4c4ef;
+  background-color: plum;
 }
 
 footer > div {
