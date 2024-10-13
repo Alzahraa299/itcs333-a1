@@ -17,7 +17,7 @@ section {
     padding: 20px;
     margin: 35px auto;
     max-width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 }
 h2{
     font-family: cursive;
@@ -27,39 +27,17 @@ h2{
     color:blue;
     font-family: cursive;
 }  
-.kg1a{
-    background-color: #c4efda;
-}
-.kg1b{
-    background-color: #a3edc9;
-}
-.kg2b{
-    background-color: #e4c4ef;
-}
-.kg2a{
-    background-color: #dea7f0;
-}
-.kgm{
-    background-color: white;
-}
+/*table*/
+.kg1a{    background-color: #c4efda;}
+.kg1b{    background-color: #a3edc9;}
+.kg2b{    background-color: #e4c4ef;}
+.kg2a{    background-color: #dea7f0;}
+.kgm{    background-color: white;}
 table, th, td {
     border: 3px solid white;
     border-collapse: collapse;
     font-family: sans-serif;
 }
-
-th{
-    background-color: #c4efda;
-}
-td{
-    background-color: #ffffff;   
-}
-h4{
-    color:#ff69b4;
-}
-.ph{
-    width: 150px;
-    height: 150px;
-}
-/*display: flex;
-justify-content: space-around;*/
+th{    background-color: #c4efda;}
+td{    background-color: #ffffff;   }
+/*end table*/
