@@ -9,7 +9,7 @@
 /*header*/
 .h1{
     text-align:center;
-    color:powderblue;
+    color:plum;
     font-size: 50px;
 }
 
@@ -19,8 +19,9 @@
 
 nav{
     display: flex;
-    flex-wrap: nowrap;
-    background-color: powderblue;
+    flex-wrap: wrap;
+    background-color: plum;
+    justify-content: space-around;
 }
 
 nav > div {
@@ -32,14 +33,128 @@ nav > div {
 }
 
 .navi{
-    border:  7px solid whitesmoke;
+    border:  4px solid plum;
 }
 a, .bo{
-    color:blue;
+    color:coral;
 }
-a:hover{
-    color:whitesmoke;
+.bo:hover, a:hover{
+    color:white;
+    background-color: lavender;
+    border: 2px solid powderblue;
+}
+
+
+/*page*/
+body{
     background-color: powderblue;
+    text-align: center;
+    color: #333;
+}
+section {
+    padding: 20px;
+    margin: 35px auto;
+    max-width: 100%;
+    /*text-align: center;*/
+}
+
+
+/*welcome*/
+#H1 h1, #H1 h4{
+    color:coral;
+    font-family: cursive;
+    text-align: center;
+}  
+#AB1{
+    border: 7px dotted powderblue;
+}
+p{
+    font-family: cursive;
+    color:#333;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+/*announcement*/
+.AnRe{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+}
+.AnReA{
+    border: 4px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, plum, powderblue);
+}
+li{
+    list-style-type: none;
+}
+
+
+/*table*/
+.taCo{
+    width: 80%;
+    margin: 0 auto;
+}
+.tHead{   
+    font-size: 40px; 
+    font-family: cursive; 
+    color: coral;
+}
+.tHead2{  
+    font-size: 27px; 
+    font-family: cursive; 
+    color:#333;
+}
+.kg1a{    background-color: #c4efda;}
+.kg1b{    background-color: #a3edc9;}
+.kg2b{    background-color: #e4c4ef;}
+.kg2a{    background-color: #dea7f0;}
+.kgm{     background-color: white;}
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+}
+table{ 
+    width:100%;
+    border-collapse: collapse;
+}
+
+/*end table*/
+
+/*gallery*/
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:20px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, plum, powderblue);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    flex:1;
+    max-width: 250px;
+}
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
 }
 
 
@@ -48,7 +163,7 @@ a:hover{
 footer{
   display: flex;
   flex-direction: column;
-  background-color: powderblue;
+  background-color: white;
 }
 
 footer > div {
@@ -64,40 +179,3 @@ footer > div {
     border: 2px solid powderblue;
     font-size: larger;
 }
-
-/*section2*/
-/*welcome*/
-body{
-    background-color: rgb(248, 248, 231);
-    text-align: center;
-}
-section {
-    padding: 20px;
-    margin: 35px auto;
-    max-width: 100%;
-    /*text-align: center;*/
-}
-h2{
-    font-family: cursive;
-    color:blue;
-}
-#H1 h1, #H1 h4{
-    color:blue;
-    font-family: cursive;
-    text-align: center;
-}  
-/*table*/
-.tHead{   font-size: 40px;}
-.tHead2{  font-size: 27px; font-family: sans-serif; color:rgb(88, 88, 248)}
-.kg1a{    background-color: #c4efda;}
-.kg1b{    background-color: #a3edc9;}
-.kg2b{    background-color: #e4c4ef;}
-.kg2a{    background-color: #dea7f0;}
-.kgm{     background-color: white;}
-table, th, td {
-    border: 3px solid white;
-    border-collapse: collapse;
-    font-family: sans-serif;
-}
-
-/*end table*/
